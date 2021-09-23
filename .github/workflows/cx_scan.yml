@@ -36,7 +36,7 @@ jobs:
         project: ${{ github.repository }}-PR
         team: /CxServer
         checkmarx_username: admin # ${{ secrets.CHECKMARX_USER }} # To be stored in GitHub Secrets.
-        checkmarx_url: https://c04a-52-70-168-130.ngrok.io/
+        checkmarx_url: http://c04a-52-70-168-130.ngrok.io/
         checkmarx_password: Test1234! # ${{ secrets.CHECKMARX_PASSWORD }} # To be stored in GitHub Secrets.
         checkmarx_client_secret: 014DF517-39D1-4453-B7B3-9930C563627C # ${{ secrets.CHECKMARX_CLIENT_SECRET }} # To be stored in GitHub Secrets.
         incremental: true
